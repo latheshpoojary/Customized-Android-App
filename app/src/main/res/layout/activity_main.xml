@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_image"
+        tools:context=".MainActivity">
+        <EditText
+            android:id="@+id/rupee"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Enter Rupees/Kg"
+            android:textColorHint="@color/white"
+            android:textColor="@color/teal_200"
+            />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name1"
+
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+
+                />
+
+            <EditText
+                android:id="@+id/kg1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_radius"
+
+                android:text="0"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2"
+                android:textColor="#05F3EB" />
+
+            <EditText
+                android:id="@+id/amt1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/background_radius"
+
+                android:text="0"
+                android:hint="Recieved Amount"
+                android:shadowRadius="2"
+
+                android:textColor="#05F3EB" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name2"
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/kg2"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2" />
+
+            <EditText
+                android:id="@+id/amt2"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+
+
+                android:background="@drawable/background_radius"
+                android:hint="Recieved Amount"
+
+                android:shadowRadius="2" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name3"
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/kg3"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2" />
+
+            <EditText
+                android:id="@+id/amt3"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#05F3EB"
+
+
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Recieved Amount"
+
+                android:shadowRadius="2" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name4"
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/kg4"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2" />
+
+            <EditText
+                android:id="@+id/amt4"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#05F3EB"
+
+
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Recieved Amount"
+
+                android:shadowRadius="2" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name5"
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/kg5"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2" />
+
+            <EditText
+                android:id="@+id/amt5"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#05F3EB"
+
+
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Recieved Amount"
+
+                android:shadowRadius="2" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/background_radius_black"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+
+                android:text="Name6"
+                android:textColor="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/kg6"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#05F3EB"
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Enter Total Kg"
+                android:shadowRadius="2" />
+
+            <EditText
+                android:id="@+id/amt6"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#05F3EB"
+
+
+                android:text="0"
+                android:background="@drawable/background_radius"
+                android:hint="Recieved Amount"
+
+                android:shadowRadius="2" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginStart="110dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
